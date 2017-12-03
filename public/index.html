@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mdApp">
+<body>
+    <div ng-controller="mainCtrl as mainVm">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+          <lable class="navbar-brand" >Hi Liraz, </lable>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link fa fa-envelope-o iconed-link" href="#inbox">
+                      <lable class="unread-msg" ng-bind="mainVm.unreadMessages"></lable>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="main" ng-view></div>
+    </div>
+    
+    <link   rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.min.css" />
+    <link   rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script> 
+    
+    
+    <script src="app.route.js"></script>
+    <script src="main.controller.js"></script>
+    <link   rel="stylesheet" href="app.css" />
+    <script src="services/logger.service.js"></script>
+    <script src="services/message.service.js"></script>
+    <script src="Pages/Home/home.controller.js"></script>
+    <script src="Pages/Inbox/inbox.controller.js"></script>
+    <script src="Pages/Message/message.controller.js"></script>
+    <script src="Message/mdMessage.directive.js"></script>
+    
+</body>
+</html>

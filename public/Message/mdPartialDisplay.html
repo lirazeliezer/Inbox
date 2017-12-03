@@ -1,0 +1,13 @@
+<div>
+    <link rel="stylesheet" href="Message/mdPartialDisplay.css" />
+
+    <div class="msg-container" ng-class="{'msg-unread' : !message.isRead}">
+        <img class="user-pic" src="design/userpic.png">
+
+        <div>
+            <div class="msg-subject" ng-bind="message.subject"></div>
+            <span class="msg-sender" ng-bind="message.senderName"></span>
+            <p class="msg-content" ng-bind="message.content"></p>
+        </div>
+    </div>
+</div>

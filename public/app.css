@@ -1,0 +1,27 @@
+body{
+    background-color: #e2e2e2;
+    margin: 5px;
+    overflow-x:hidden;
+}
+
+nav{
+    background: black;
+}
+
+.unread-msg{
+    position: absolute;
+    margin-left: 12px;
+    background: black;
+    color: pink;
+    margin-top: 10px;
+}
+
+.iconed-link{
+    margin-top: 5px;
+    display: flex;
+}
+
+.main{
+   margin-top: 60px; 
+}
+

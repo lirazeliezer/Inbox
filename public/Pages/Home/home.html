@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="Pages/Home/home.css" />
+
+<div class="content">
+    <div class="logo">
+        <img src="design/mailbox.png">
+        <div class="logo-text">
+            <h1>Inbox</h1>
+            <span>by liraz</span>
+        </div>
+    </div>
+    <div class="fade">
+        <h1>Hello Liraz,</h1>
+        <div>You have 
+            <span ng-bind="homeVm.unreadMessages"></span> 
+            unread messages out of 
+            <span ng-bind="homeVm.totalMessages"></span></div>
+        <a href="#inbox">view messages</a>
+    </div>
+</div>

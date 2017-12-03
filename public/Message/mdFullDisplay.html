@@ -1,0 +1,39 @@
+<div>
+    <link rel="stylesheet" href="Message/mdFullDisplay.css" />
+
+    
+    <div class="msg-container">
+        
+        <div class="msg-subject" ng-bind="message.subject"></div>
+        <hr>
+        
+        <div class="inline">
+            <img class="user-pic" src="design/userpic.png">
+            <div>
+                <div class="msg-sender" ng-bind="message.senderName"></div>
+                <div ng-bind="message.dateString"></div>
+            </div>
+        </div>
+        
+        <br>
+        <p class="msg-content" ng-bind="message.content"></p>
+        
+        <footer class="bottom-bar">
+            <hr>
+            <div class="inline">
+                <span class="iconed-action">
+                    <i class="fa fa-share"></i>
+                    <div>Forward</div>
+                </span>
+                <span class="iconed-action">
+                    <i class="fa fa-reply-all"></i>
+                    <div>Reply all</div>
+                </span>
+                <span class="iconed-action">
+                    <i class="fa fa-reply"></i>
+                    <div>Reply</div>
+                </span>
+            </div>
+        </footer>
+    </div>
+</div>

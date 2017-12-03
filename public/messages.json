@@ -1,0 +1,71 @@
+{ 
+    "messages": [
+        {
+            "id":0,
+            "senderName":"lior",
+            "senderEmail":"lior@gmail.com",
+            "subject":"hi",
+            "content":"Following our previous conversation, \n I wanted to check how you are doing?",
+            "isRead":true,
+            "receivedDate":"2017-12-02T18:25:43.511Z"
+            
+        },
+        {
+            "id":1,
+            "senderName":"anat",
+            "senderEmail":"anati@gmail.com",
+            "subject":"america",
+            "content":"How are you? \n I could not reach you... \n Is there anything new with the trip?",
+            "isRead":false,
+            "receivedDate":"2017-11-30T18:25:43.511Z"
+            
+        },
+        {
+            "id":2,
+            "senderName":"clal insurance",
+            "senderEmail":"clal@walla.com",
+            "subject":"announcement of an insurance incident",
+            "content":"Liraz Eliezer Hello, \n We received the announcement of an insurance incident of the type: medical-medical Nahal\n Your inquiry will be answered within 3 business days and a message will be sent to you via SMS and / or e-mail.\n For further details, please contact the Claims Service call center from 8: 30-16: 00 at * 6564.\n We are available to you with any question or request,\n \n Best regards,\n The Claims System,\n Clal Insurance Company",
+            "isRead":true,
+            "receivedDate":"2017-11-01T18:25:43.511Z"
+            
+        },
+        {
+            "id":35,
+            "senderName":"isracard",
+            "senderEmail":"isracard@gmail.com",
+            "subject":"IsrDays - five days of benefits not to be missed in the Fattal hotel chain! Advertising!",
+            "content":"Up to 450 NIS discount for vacation bookings for January \n In the Fattal Hotels chain \n\n sTo realize the benefit",
+            "isRead":false,
+            "receivedDate":"2016-02-29T18:25:43.511Z"  
+        },
+        {
+            "id":50,
+            "senderName":"Adika",
+            "senderEmail":"adika@gmail.com",
+            "subject":"Adike - we are on our way!",
+            "content":"Re-start :) \n\n Your package was packaged and delivered to the delivery company.\nThe selected delivery method is a courier to your home - the package will reach you within 3 business days \n (Fridays, Saturdays and holidays are not considered business days) -\n It is recommended that you stay available for delivery coordination.\n\n Order number: 11111 \n Shipping tracking number: 22222 \n The transaction invoice is attached to this email.",
+            "isRead":false,
+            "receivedDate":"2017-12-01T18:25:43.511Z"  
+        },
+        {
+            "id":60,
+            "senderName":"gett",
+            "senderEmail":"get@gmail.com",
+            "subject":"Gett -new!",
+            "content":"End of the era 'You will pay me I will repay you' \n \n From today you can book a taxi with friends and not get involved with unnecessary calculations at the end of the trip, \n but with the click of a button you will make an equal payment among all the passengers \n \n Share a taxi And pay less! \n Only in Gett you can book a taxi and share the payment among the passengers in an equal and cost effective way for everyone!",
+            "isRead":false,
+            "receivedDate":"2017-12-03T18:25:43.511Z"  
+        },
+        {
+            "id":70,
+            "senderName":"Castro",
+            "senderEmail":"castro@gmail.com",
+            "subject":"Hi Liraz,",
+            "content":"Thank you for your invitation to castro.com. \n You can check the status of your order by signing in to your personal account. \n Please send us an email or call 1800-266-066 Sunday - Thursday, 8:00 to 19:00. \n Your order confirmation is attached below.  \n Thank you again for purchasing this site.",
+            "isRead":true,
+            "receivedDate":"2017-03-01T18:25:43.511Z"  
+        }
+       
+    ]
+}

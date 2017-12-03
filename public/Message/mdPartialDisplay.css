@@ -1,0 +1,38 @@
+.msg-container{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+}
+
+.user-pic{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 5px;
+}
+
+.msg-unread{
+    font-weight: bolder;
+    border-style: ridge;
+}
+
+.msg-subject{
+    font-size: 20px;
+}
+
+.msg-sender{
+    font-size: 15px;
+}
+
+.msg-content{
+    font-size: 15px;
+    color: gray;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 350px;
+}

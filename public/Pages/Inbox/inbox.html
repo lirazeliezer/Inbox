@@ -1,0 +1,11 @@
+
+<div ng-repeat="categoryObj in inboxVm.msgByDate">
+    
+    <div ng-bind="categoryObj.category"></div>
+    
+    <div ng-repeat="msg in categoryObj.messages | orderBy: '-receivedDate'">
+        <div style="cursor: pointer;" ng-click="inboxVm.displayFullMessage(msg)">
+            <md-message  compact message="msg"></md-message>
+        </div>
+    </div>
+</div>

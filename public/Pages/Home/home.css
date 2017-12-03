@@ -1,0 +1,80 @@
+.content{
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    margin: 7px;
+    border-radius: 12px;
+    height: 89vh;
+}
+
+.logo{
+    display: inline-flex;
+    -webkit-animation: slideIn 1s forwards;
+    -moz-animation: slideIn 1s forwards;
+    animation: slideIn 1s forwards;
+}
+
+.logo-text{
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fade{
+    -webkit-animation:fadeIn 2s forwards;  
+	-moz-animation:fadeIn 2s forwards;
+	animation:fadeIn 2s forwards;
+
+    -webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+/*animation*/
+
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ @-moz-keyframes fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
